@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'PoppinsR';
+    src: url('../../fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PoppinsB';
+    src: url('../../fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 14px;
+    min-width: 300px;
+    min-height: 39px;
+    font-family: 'PoppinsR', sans-serif;
+    font-size: 16px;
+    color: #244e3b;
+}
+
+header{
+    font-family: 'PoppinsB', sans-serif;
+    font-size: 25px;
+    background: #c9f3e0;
+}
+header, .tabs {
+    padding: 20px;
+}
+
+.tabs > div {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.tabs > div img{
+    height: 30px;
+    grid-column: 1/2;
+    margin-right: 30px;
+    /* Black and white icons only */
+    filter: grayscale(100%); 
+}
+
+.tabs > div p{
+    grid-column: 2/3;
+    margin-right: 30px;
+    text-transform: capitalize;
+}
+
+.tabs > div span{
+    grid-column: 3/4;
+}
+
+ 
+ 
+ 
