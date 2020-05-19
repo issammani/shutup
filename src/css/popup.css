@@ -26,13 +26,26 @@ html, body {
     color: #244e3b;
 }
 
+.no-tabs{
+    padding: 8px;
+    font-family: 'PoppinsB', sans-serif;
+    text-align: center;
+    display: none;
+}
+
 header{
     font-family: 'PoppinsB', sans-serif;
     font-size: 25px;
     background: #c9f3e0;
 }
+
+.show{
+    display: block !important;
+}
+
 header, .tabs {
     padding: 20px;
+    display: none;
 }
 
 .tabs > div {
@@ -42,22 +55,23 @@ header, .tabs {
     margin-bottom: 25px;
 }
 
-.tabs > div img{
+.tabs > div img.favicon{
     height: 30px;
     grid-column: 1/2;
-    margin-right: 30px;
+    margin-right: 20px;
     /* Black and white icons only */
     filter: grayscale(100%); 
 }
 
 .tabs > div p{
     grid-column: 2/3;
-    margin-right: 30px;
     text-transform: capitalize;
 }
 
-.tabs > div span{
+.tabs > div img.volume{
     grid-column: 3/4;
+    height: 30px;
+    cursor: pointer;
 }
 
  
