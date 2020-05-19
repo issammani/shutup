@@ -18,7 +18,7 @@ In case of problems installing the extension consult the [official docs](https:/
   Just click the speaker icon to (un)mute a tab.
 
 ## TODO
-[] Add custom icons.
-[] Inject script into tabs to detect `<audio>` and `<video>` tags.
-[] Add a better UI.
-[] Pause audible elements instead of muting them.
+- [ ] Add custom icons.
+- [ ] Inject script into tabs to detect `<audio>` and `<video>` tags.
+- [ ] Add a better UI.
+- [ ] Pause audible elements instead of muting them.
