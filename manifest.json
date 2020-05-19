@@ -31,7 +31,8 @@
       "128": "assets/shutup128.png"
     },
     "web_accessible_resources": [
-      "src/js/content.js"
+      "src/js/content.js",
+      "src/js/utils/*"
     ],
     "manifest_version": 2
   }
