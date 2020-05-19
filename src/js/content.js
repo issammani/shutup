@@ -1,1 +1,4 @@
-console.log('shuuush!');
+
+export function main(){
+    console.log('shuuush!');
+}
