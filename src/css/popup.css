@@ -37,6 +37,7 @@ header{
     font-family: 'PoppinsB', sans-serif;
     font-size: 25px;
     background: #c9f3e0;
+    text-align: center;
 }
 
 .show{
@@ -72,6 +73,7 @@ header, .tabs {
     grid-column: 3/4;
     height: 30px;
     cursor: pointer;
+    filter : invert(22%) sepia(52%) saturate(414%) hue-rotate(101deg) brightness(99%) contrast(90%);
 }
 
  
